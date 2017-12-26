@@ -7,4 +7,4 @@ In this I do the task in 2 ways : First using an explicitly defined generic func
 
 MNIST-CNN is a notebook which implements a Convolution Layer - FC Layer - Softmax architecture to recognize the digits. 
 Note that this uses the relatively new tf.estimator API.
-Also the CNN gives a raltively bad performance of about 95-96 %, but this can be bettered by using better optimization algorithms like Adam instead of Stochastic Gradient Descent, running for more epochs, decreasing dropout probability, adding more layers, etc.
+Also the CNN gives a relatively bad performance of about 95-96 %, but this can be improved by using techniques like using better optimization algorithms like Adam instead of Stochastic Gradient Descent, running for more epochs, decreasing dropout probability, adding more layers, etc.
